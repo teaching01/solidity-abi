@@ -1,0 +1,25 @@
+[
+  {
+    "logIndex": "0x1",
+    "blockNumber": "0x11",
+    "blockHash": "0xcde4c2ef0476f37a1ab803c73130a88749c009d57ee495f1ad28f57f09f57ece",
+    "transactionHash": "0xaa78dfcace1a9c1b581dc34e5d2a44e80c887aca682ed5d24c500bf2e2076f50",
+    "transactionIndex": "0x0",
+    "address": "0xD4Fc541236927E2EAf8F27606bD7309C1Fc2cbee",
+    "data": "0x0000000000000000000000000000000000000000000000000000000000000002",
+    "topics": [
+      "0xa7df1e089d15e66e08ebe7e8f362bd6dffe0dfafd06220215ed2d94fead2df4d",
+      "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace"
+    ]
+  }
+]
+
+// event FixedArrayEvent1(uint256[1] indexed u, uint256[1] v);
+// emit FixedArrayEvent1([uint256(2)],[uint256(2)]);
+
+// dopics:
+// "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace"
+// keccak(0000000000000000000000000000000000000000000000000000000000000002)
+// notice:
+// 0000000000000000000000000000000000000000000000000000000000000002 is hex
+// not utf-8

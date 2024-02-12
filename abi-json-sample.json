@@ -1,0 +1,56 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "a",
+        "type": "uint256"
+      }
+    ],
+    "name": "foo",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "a",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "b",
+        "type": "bytes32"
+      }
+    ],
+    "name": "Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "a",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "b",
+        "type": "bytes32"
+      }
+    ],
+    "name": "Event2",
+    "type": "event"
+  }
+]

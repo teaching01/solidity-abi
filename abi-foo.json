@@ -1,0 +1,68 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "internalType": "bytes3[2]",
+        "name": "",
+        "type": "bytes3[2]"
+      }
+    ],
+    "name": "bar",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "internalType": "uint32",
+        "name": "x",
+        "type": "uint32"
+      },
+      {
+        "internalType": "bool",
+        "name": "y",
+        "type": "bool"
+      }
+    ],
+    "name": "baz",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "r",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "sam",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

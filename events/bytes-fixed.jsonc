@@ -1,0 +1,26 @@
+[
+  {
+    "logIndex": "0x1",
+    "blockNumber": "0x26",
+    "blockHash": "0x6832458229239bdbb22cf8888e6674486454a4870a8eaae2c9ad4b58fd20a369",
+    "transactionHash": "0xb684e5b7a045613f7b5393608170ffa3380f6fda183888c4827b3d4ad9b617bb",
+    "transactionIndex": "0x0",
+    "address": "0x9396B453Fad71816cA9f152Ae785276a1D578492",
+    "data": "0x68656c6c6f20776f726c64000000000000000000000000000000000000000000",
+    "topics": [
+      "0x6f0807b347ea74790589c0f1a0dcd20b293a52ce26e9823f162bdc75b18165c3",
+      "0x68656c6c6f20776f726c64000000000000000000000000000000000000000000"
+    ]
+  }
+]
+
+// event FixedBytesEvent(bytes11 indexed b, bytes11 c);
+// emit FixedBytesEvent("hello world", "hello world");
+
+// topics:
+// 0x68656c6c6f20776f726c64000000000000000000000000000000000000000000
+// hello world in utf-8 codes
+
+// data
+// 0x68656c6c6f20776f726c64000000000000000000000000000000000000000000
+// hello world in utf-8 codes
